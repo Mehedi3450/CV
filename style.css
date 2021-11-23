@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif, 'Roboto', sans-serif, 'Ubuntu', sans-serif;
+    color: black;
+}
+.container{
+    max-width: 1100px;
+    background-color: rgba(176, 251, 244, 0.479);
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    text-align: center;
+}
+.profile-image{
+    width: 125px;
+    height: 130px;
+    border: 1px solid #1e8ba7ce;
+    border-radius: 50%;
+}
+.header-cont{
+    padding: 10px;
+}
+.header-contract{
+    padding: 5px;
+}
+.header-contract span{
+    font-weight: bolder;
+}
+.header-contract a{
+    text-decoration: none;
+    color: black;
+}
+.header-contract a:hover{
+    color: tomato;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.div-clear{
+    clear: both;
+}
+.hr1{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.abouts-me h2{
+    width: 30%;
+    float: left;
+}
+/*------about me-------*/
+
+.abouts-me p{
+    width: 70%;
+    float: left;
+}
+.education-info{
+
+}
+.education-info .right-education-info{
+    width: 30%;
+    float: left;
+}
+.education-info .left-education-info{
+    width: 70%;
+    float: left;
+}
+.hr2{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.left-work-exprience{
+    width: 30%;
+    float: left;
+}
+.right-work-exprince{
+    width: 70%;
+    float: left;
+}
+.right-work-exprince ul li{
+    list-style-type: disc;
+}
+.left-my-skills{
+    width: 30%;
+    float: left;
+}
+.right-my-skills{
+    width: 70%;
+    float: left;
+}
+.right-my-skills ul li{
+    list-style: none;
+}
+.left-my-address{
+    width: 30%;
+    float: left;
+}
+.right-my-address{
+    width: 70%;
+    float: left;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.footer-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-top a{
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+.footer-top i{
+    font-size: 25px;
+    margin: 15px;
+}
+.fa-facebook-square{
+    color: #0335fc;
+    border: 3px solid #0335fc;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+}
+.fa-twitter{
+    color:#03befc;
+    border: 3px solid #03befc;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+}
+.fa-linkedin{
+    color: #0335fc;
+    border: 3px solid #0335fc;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+}
+.fa-youtube{
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+}
+.fa-facebook-square:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-youtube:hover{
+    color: tomato;
+}
+.footer-bottom{
+padding: 10px;
+}
